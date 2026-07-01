@@ -6,7 +6,7 @@ from imblearn.over_sampling import SMOTE
 
 # Load dataset
 def load_data():
-    df = pd.read_csv("data/creditcard.csv")
+    df = pd.read_csv("creditcard.csv")
     return df
 
 
